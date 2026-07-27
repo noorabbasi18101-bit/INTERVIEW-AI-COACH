@@ -1,0 +1,6 @@
+{
+  "name": "InterviewAI Coach",
+  "description": "AI-powered interview coaching application with personalized question generation, answer evaluation, real-time feedback, and performance analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
