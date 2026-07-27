@@ -96,7 +96,7 @@ Analysis screen   <img width="702" height="1600" alt="WhatsApp Image 2026-07-27 
 
 ```bash
 # Clone the repository
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone   https://github.com/noorabbasi18101-bit/INTERVIEW-AI-COACH.git
 cd ai-interview-coach
 
 # Install dependencies
@@ -116,6 +116,7 @@ npm run build
 Students and job seekers often lack access to realistic interview practice or personalized feedback. AI Interview Coach helps users practice anytime, build confidence, and prepare more effectively with AI-driven insights.
 🎓 Project Outcome
 This project demonstrates how AI can enhance interview preparation through dynamic question generation, intelligent response analysis, and personalized feedback — designed, developed, deployed, and tested end-to-end.
+
 👩‍💻 Author
 Noor-un-Nisa
 Final Project Submission — AI-Powered Application
