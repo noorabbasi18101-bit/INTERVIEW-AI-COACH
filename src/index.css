@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    overscroll-behavior: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+@theme {
+  --color-primary: #4b53bb;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #8b93ff;
+  --color-on-primary-container: #1d238f;
+  --color-primary-fixed: #e0e0ff;
+  --color-primary-fixed-dim: #bec2ff;
+  --color-on-primary-fixed: #00016d;
+  --color-on-primary-fixed-variant: #3239a2;
+
+  --color-secondary: #88487d;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #feb0ed;
+  --color-on-secondary-container: #7c3e72;
+  --color-secondary-fixed: #ffd7f3;
+  --color-secondary-fixed-dim: #fbaeea;
+  --color-on-secondary-fixed: #390035;
+  --color-on-secondary-fixed-variant: #6c3064;
+
+  --color-tertiary: #1a667e;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #64a6c0;
+  --color-on-tertiary-container: #003a4a;
+  --color-tertiary-fixed: #baeaff;
+  --color-tertiary-fixed-dim: #8ed0eb;
+  --color-on-tertiary-fixed: #001f29;
+  --color-on-tertiary-fixed-variant: #004d62;
+
+  --color-surface: #f8f9fd;
+  --color-on-surface: #191c1f;
+  --color-surface-dim: #d9dade;
+  --color-surface-bright: #f8f9fd;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f2f3f7;
+  --color-surface-container: #edeef2;
+  --color-surface-container-high: #e7e8ec;
+  --color-surface-container-highest: #e1e2e6;
+  --color-surface-variant: #e1e2e6;
+  --color-on-surface-variant: #464652;
+  --color-inverse-surface: #2e3134;
+  --color-inverse-on-surface: #eff1f5;
+  --color-inverse-primary: #bec2ff;
+
+  --color-outline: #767684;
+  --color-outline-variant: #c6c5d5;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --color-background: #f8f9fd;
+  --color-on-background: #191c1f;
+
+  --spacing-container-padding-mobile: 20px;
+  --spacing-container-padding-desktop: 40px;
+  --spacing-gutter: 16px;
+  --spacing-stack-sm: 12px;
+  --spacing-stack-md: 24px;
+  --spacing-stack-lg: 48px;
+}
+
+/* Material symbols filled state support */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+
